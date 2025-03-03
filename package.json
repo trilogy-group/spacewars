@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "postbuild": "xcopy /E /I node_modules\\three dist\\node_modules\\three",
     "preview": "vite preview --base=/spacewars/"
   },
   "keywords": [
