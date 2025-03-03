@@ -1,0 +1,26 @@
+{
+  "name": "spacewars",
+  "version": "1.0.0",
+  "description": "A 3D space shooter game where players pilot an X-wing fighter on a mission to destroy the Death Star",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "game",
+    "three.js",
+    "space",
+    "shooter",
+    "star wars"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+} 
