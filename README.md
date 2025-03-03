@@ -2,6 +2,10 @@
 
 A 3D space shooter game where players pilot an X-wing fighter on a mission to destroy the Death Star.
 
+## Play the Game
+
+You can play the game online at: [https://trilogy-group-1.github.io/spacewars/](https://trilogy-group-1.github.io/spacewars/)
+
 ## Project Overview
 
 Space Wars is a browser-based 3D game built with Three.js that recreates the iconic trench run scene from Star Wars. Players navigate through the Death Star's surface, avoid obstacles and enemy fire, and ultimately attempt to hit the thermal exhaust port to destroy the Death Star.
@@ -56,42 +60,61 @@ Space Wars is a browser-based 3D game built with Three.js that recreates the ico
 - WebGL for graphics acceleration
 - Howler.js for sound management (optional)
 
-## Getting Started
+## Development
 
 ### Prerequisites
-- Modern web browser with WebGL support
-- Node.js and npm (for development)
+
+- Node.js (v14 or higher)
+- npm
 
 ### Installation
-1. Clone the repository
+
+1. Clone the repository:
    ```
    git clone https://github.com/yourusername/spacewars.git
    cd spacewars
    ```
 
-2. Install dependencies
+2. Install dependencies:
    ```
    npm install
    ```
 
-3. Start the development server
+3. Start the development server:
    ```
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:5173`
 
-## Controls (Planned)
+### Building for Production
 
-- **W/A/S/D** or **Arrow Keys**: Control the X-wing movement
-- **Mouse**: Aim/adjust flight direction
-- **Space**: Fire weapons
-- **Shift**: Boost speed
-- **E**: Special ability
+To build the project for production:
 
-## Contributing
+```
+npm run build
+```
 
-This project is currently in development. Contributions, suggestions, and feedback are welcome!
+The built files will be in the `dist` directory.
+
+## Deployment to GitHub Pages
+
+This project is set up to automatically deploy to GitHub Pages when you push to the main branch.
+
+To set up GitHub Pages deployment:
+
+1. Go to your GitHub repository settings
+2. Navigate to "Pages"
+3. Under "Build and deployment", select "GitHub Actions" as the source
+4. The workflow will automatically build and deploy your site
+
+## Game Controls
+
+- W/S: Pitch up/down
+- A/D: Roll left/right
+- Q/E: Yaw left/right
+- Shift: Boost speed
+- Space: Fire weapons
 
 ## License
 

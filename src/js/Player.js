@@ -176,7 +176,7 @@ export class Player {
             // Uncomment this when you have a model file
             /*
             loader.load(
-                '/models/x-wing.glb',
+                './models/x-wing.glb',
                 (gltf) => {
                     this.model = gltf.scene;
                     this.model.scale.set(0.1, 0.1, 0.1); // Adjust scale as needed
