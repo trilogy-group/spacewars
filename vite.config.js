@@ -1,6 +1,6 @@
 export default {
   root: './',
-  base: './',
+  base: '/spacewars/',
   publicDir: 'public',
   server: {
     host: true,
